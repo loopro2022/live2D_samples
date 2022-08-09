@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "MONKEY.10.moc3",
+		"Textures": [
+			"MONKEY.10.1024/texture_00.png"
+		],
+		"Physics": "MONKEY.10.physics3.json",
+		"DisplayInfo": "MONKEY.10.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamBreath"
+			]
+		}
+	]
+}
