@@ -1,0 +1,142 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup2",
+			"Name": "cloth"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup2",
+			"Name": "ear"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup2",
+			"Name": "fur"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "mouth_deform"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "mouth_open"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "breath"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "eye_right"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "left_eye"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball_X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball_Y"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "eyebrow_deform"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "eyebrow_open"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "additional"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part19",
+			"Name": "Ape_9955_blackT.psd (Corresponding layer not found)"
+		},
+		{
+			"Id": "Part18",
+			"Name": "Ape_9955_blackT.psd (Corresponding layer not found)"
+		},
+		{
+			"Id": "Part17",
+			"Name": "Ape_9955.psd"
+		},
+		{
+			"Id": "Part10",
+			"Name": "cigar"
+		},
+		{
+			"Id": "Part6",
+			"Name": "nose"
+		},
+		{
+			"Id": "Part11",
+			"Name": "mouth"
+		},
+		{
+			"Id": "Part",
+			"Name": "eye_right"
+		},
+		{
+			"Id": "Part2",
+			"Name": "eye_left"
+		},
+		{
+			"Id": "Part7",
+			"Name": "眼底"
+		},
+		{
+			"Id": "Part3",
+			"Name": "mouth"
+		},
+		{
+			"Id": "Part4",
+			"Name": "mouth_inside"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		]
+	]
+}

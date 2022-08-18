@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Ape_red_glass.moc3",
+		"Textures": [
+			"Ape_red_glass.1024/texture_00.png"
+		],
+		"Physics": "Ape_red_glass.physics3.json",
+		"DisplayInfo": "Ape_red_glass.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamBreath"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
