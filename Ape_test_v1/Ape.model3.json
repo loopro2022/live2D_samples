@@ -1,0 +1,45 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Ape.moc3",
+		"Textures": [
+			"texture/texture_00.png"
+		],
+		"Physics": "Ape.physics3.json",
+		"DisplayInfo": "Ape.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "BAYCblock1hat",
+				"File": "BAYCblock1hat.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "eyes.motion3.json"
+				},
+				{
+					"File": "eyesR.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
